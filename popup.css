@@ -1,0 +1,33 @@
+```css
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    transition: background 0.5s;
+}
+
+#quoteDisplay {
+    padding: 20px;
+    font-size: 1.2em;
+    color: #fff;
+    text-shadow: 2px 2px 4px #000;
+}
+
+#nextQuoteButton {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#nextQuoteButton:hover {
+    background-color: #45a049;
+}
+```
